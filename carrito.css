@@ -107,16 +107,161 @@ body
 .imagen
 {
     position: absolute;
-    top: -60%;
-    left: 50%;
+    top: 50%;
+    left: 10%;
     transform: translate(-50%, -50%);
-    border-radius: 10px;
-    border-top:3px solid #00ad65;
-    border-left:3px solid #00ad65;
-    border-right:3px solid #00ad65;
+    border-radius: 20px;
+    
 }
 #imagen 
 {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 20px;
+}
+
+.rectangulo
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    height: 10vw;
+    background-color: #c1e3d5;
+    border-radius: 20px;
+    border:3px solid #00ad65;
+}
+.rectangulo2
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    height: 10vw;
+    background-color: #c1e3d5;
+    border-radius: 20px;
+    border:3px solid #00ad65;
+}
+.rectangulo3
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    height: 10vw;
+    background-color: #c1e3d5;
+    border-radius: 20px;
+    border:3px solid #00ad65;
+}
+.rectangulo4
+{
+    position: absolute;
+    top: 90%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 6vw;
+    background-color: #c1e3d5;
+    border-radius: 20px;
+    border:3px solid #00ad65;
+}
+.rectangulo5
+{
+    position: absolute;
+    top: 90%;
+    left: 19%;
+    transform: translate(-50%, -50%);
     width: 20vw;
-    height: 15vw;
+    height: 4.4vw;
+    background-color: #00ad65;
+    border-radius: 20px;
+    border:3px solid #00ad65;
+}
+#vaciar
+{
+    font-size: 1.5vw;
+    text-align: center;
+    color: black;
+}
+.subtitulitos
+{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.rectangulito
+{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    width: 15vw;
+    height: 3vw;
+    background-color: #00ad65;
+    border-radius: 20px;
+    border:3px solid #00ad65;
+}
+#comprar
+{
+    font-size: 1.5vw;
+    text-align: center;
+    color: black;
+    width: 10vw;
+}
+.comprar
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#textos
+{
+    font-size: 1.1vw;
+    text-align: left;
+
+}
+.textos1
+{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    width: 10vw;
+}
+.cantidad
+{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 10vw;
+}
+#input 
+{
+    font-size: 1.1vw;
+    text-align: left;
+    width: 5vw;
+    border:solid #00ad65;
+    border-radius: 10px;
+}
+.textos2
+{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 10vw;
+}
+.textos3
+{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    width: 10vw;
 }
